@@ -1,4 +1,4 @@
-// import { CloudsCanvas } from './canvas';
+import { CloudsCanvas } from './canvas';
 import Home from './Home';
 import Navbar from './Navbar';
 import Schedule from './Schedule';
@@ -12,5 +12,5 @@ export {
   Schedule,
   Results,
   Statistics,
-//   CloudsCanvas
+  CloudsCanvas
 }

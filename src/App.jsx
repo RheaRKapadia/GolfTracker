@@ -1,6 +1,6 @@
 
 import { BrowserRouter } from 'react-router-dom';
-import { Home, Schedule, Results, Statistics} from "./components";
+import { Home, Navbar, CloudsCanvas, Schedule, Results, Statistics} from "./components";
 
 
 
@@ -8,10 +8,10 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className=''>
+      <div className='relative z-0'>
         <Navbar />
-        <CloudsCanvas />
         <Home />
+        <CloudsCanvas/>
         <Schedule />
         <Results />
         <Statistics />

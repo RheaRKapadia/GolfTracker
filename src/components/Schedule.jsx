@@ -1,4 +1,5 @@
 import React from 'react'
+import SectionWrapper from './hoc/SectionWrapper'
 
 const Schedule = () => {
   return (
@@ -6,4 +7,4 @@ const Schedule = () => {
   )
 }
 
-export default Schedule
+export default SectionWrapper(Schedule, "schedule") 
