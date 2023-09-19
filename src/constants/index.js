@@ -16,3 +16,96 @@ export const navLinks = [
         title: "STATISTICS",
     },
   ];
+
+  export const upcomingTournaments = [
+    {
+      name: "Master's Tournament",
+      date: "1/1/24",
+      course: "Augusta National Course",
+      tour: 'PGA Tour'
+    },
+    {
+      name: "Master's Tournament",
+      date: "2/1/24",
+      course: "Augusta National Course",
+      tour: 'PGA Tour'
+    },
+    {
+      name: "Master's Tournament",
+      date: "2/1/24",
+      course: "Augusta National Course",
+      tour: 'PGA Tour'
+    },
+    {
+      name: "Master's Tournament",
+      date: "2/1/24",
+      course: "Augusta National Course",
+      tour: 'PGA Tour'
+    },
+    {
+      name: "Master's Tournament",
+      date: "2/1/24",
+      course: "Augusta National Course",
+      tour: 'PGA Tour'
+    },
+  ];
+
+  export const tournamentResults = [
+    {
+      date: '2/1/24',
+      tournament: 'masters',
+      course: 'augusta national',
+      tour: 'pga',
+      score: '65',
+      finish: '1/120'
+    },
+    {
+      date: '2/1/24',
+      tournament: 'masters',
+      course: 'augusta national',
+      tour: 'pga',
+      score: '65',
+      finish: '1/120'
+    },
+    {
+      date: '2/1/24',
+      tournament: 'masters',
+      course: 'augusta national',
+      tour: 'pga',
+      score: '65',
+      finish: '1/120'
+    },
+    {
+      date: '2/1/24',
+      tournament: 'masters',
+      course: 'augusta national',
+      tour: 'pga',
+      score: '65',
+      finish: '1/120'
+    },
+    {
+      date: '2/1/24',
+      tournament: 'masters',
+      course: 'augusta national',
+      tour: 'pga',
+      score: '65',
+      finish: '1/120'
+    },
+    {
+      date: '2/1/24',
+      tournament: 'masters',
+      course: 'augusta national',
+      tour: 'pga',
+      score: '65',
+      finish: '1/120'
+    },
+    {
+      date: '2/1/24',
+      tournament: 'masters',
+      course: 'augusta national',
+      tour: 'pga',
+      score: '65',
+      finish: '1/120'
+    },
+    
+  ]

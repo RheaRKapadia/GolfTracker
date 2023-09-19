@@ -15,16 +15,14 @@ const Navbar = () => {
             window.scroll(0, 0);
           }}
         >
-          <p className={`${styles.navBarText} text-[14px]`}>GOLF PLANNER</p>
+          <p className={`${styles.navBarText}`}>GOLF PLANNER</p>
         </Link>
       
       <ul className={` ${styles.navBarText} text-[12px] flex flex-row gap-20`}>
         {navLinks.map((link) => (
           <li
             key={link.id}
-            className={`$
-            {hover:text-[18px]}
-            `}
+            
           >
             <a href={`#${link.id}`}>{link.title}</a>
           </li>

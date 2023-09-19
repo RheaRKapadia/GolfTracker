@@ -11,7 +11,7 @@ function HOC() {
             initial='hidden'
             whileInView='show'
             viewport={{ once: true, amount: 0.25}}
-            className={`sm:px-16 px-6 max-w-7xl mx-auto h-[550px] relative z-0 bg-beige rounded-3xl border-black border-2 top-[130px] mt-20 mb-20`}
+            className={` whiteBoxHomeShadow sm:px-16 px-6 max-w-6xl mx-auto min-h-[34rem]  relative z-0 bg-beige rounded-3xl border-black border-2 top-[140px] mt-20 mb-[20rem]`}
         >
             <span className='hash-span' id={idName}>
                 &nbsp; 
@@ -22,3 +22,5 @@ function HOC() {
 }
 
 export default SectionWrapper
+
+// h-[550px]

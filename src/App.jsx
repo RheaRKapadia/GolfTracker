@@ -8,10 +8,10 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      <div className='relative z-0'>
+      <div className='relative z-0 '>
         <Navbar />
-        <Home />
         <CloudsCanvas/>
+        <Home />
         <Schedule />
         <Results />
         <Statistics />

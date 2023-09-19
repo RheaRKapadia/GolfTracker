@@ -20,18 +20,16 @@ const Home = () => {
         <div className={`${styles.homeGreenBox} -ml-[100px] basis-2/5`}></div>
         <div className={`${styles.homeGreenBox} -mr-[100px] basis-1/2`}></div>
       </div>
-      <div className='flex flex-row gap-20 justify-between mt-[150px]'>
+      <div className='flex flex-row gap-20 justify-between   mt-[150px]'>
         <div className={`${styles.homeGreenBox} -ml-[100px]  basis-1/6`}></div>
-        <div className={`${styles.homeGreenBox} -mr-[100px] basis-3/5`}></div>
+        <div className={`${styles.homeGreenBox} -mr-[100px] basis-5/6`}></div>
       </div>
-      {/* <div className={`${styles.homeGreenBox} w-[550px] -ml-[100px]`}></div> */}
-      {/* <div className={`${styles.homeGreenBox} w-[600px]`}></div> */}
-      {/* <div className={`${styles.homeGreenBox} w-[350px] -ml-[100px]`}></div> */}
-
-
+      <div className=' text-right  -mt-[130px] pr-10'>
+        <h1 className={`${styles.headingText}`}>AKSHAY</h1>
+      </div>
       
     </section>
   )
 }
 
-export default SectionWrapper(Home, "home") 
+export default SectionWrapper(Home, "home");

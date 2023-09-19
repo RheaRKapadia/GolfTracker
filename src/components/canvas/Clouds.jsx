@@ -25,9 +25,9 @@ const Clouds = (props) => {
       />
       <primitive
         object={clouds.scene}
-        scale={  2.5}
-        position={ [-2, -2, -2]}
-        rotation={[-0.6, -0.2, -0.1]}
+        scale={  0.40}
+        position={ [-1, 5, -2]}
+        rotation={[-0.5, -0.2, -0.1]}
       />
     </mesh>
   )
@@ -36,10 +36,10 @@ const Clouds = (props) => {
 const CloudsCanvas = () => {
     return (
       
-      <div className='w-full h-full absolute inset-0 z-[-1] sky'>
-        <motion.div initial={{ x: -800 }} animate={{ x: 1000 }}
-            transition={{duration: 50, delay: 0, ease: "easeIn", repeat:'loop'}}>
-          <Canvas className='h-full' camera={{ fov:45, near:0.1, far: 200, position: [-4, 4,6]}}>
+      <div className='w-full h-full absolute inset-0 sky overscroll-contain overflow-hidden'>
+        <motion.div initial={{ x: -600 }} animate={{ x: 1500 }}
+            transition={{duration: 50, delay: 0, ease: "easeIn", repeat:'loop'}} className='relative w-full h-full p-20 '>
+          <Canvas className='h-full' camera={{ fov:105, near:0.3, far: 300, position: [-4, 4,6]}}>
             <Suspense fallback={null}>
               <Clouds/>
             </Suspense>
