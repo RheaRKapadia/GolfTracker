@@ -7,12 +7,12 @@ const Results = () => {
   return (
     <section>
       <div className={`${styles.headingTextPages} `}>RESULTS</div>
-      <table class="table-auto">
+      <table className="table-fixed mt-[4rem] w-full uppercase text-center border border-separate border-spacing-y-[1.5rem]  max-h-[10rem] overflow-scroll no-scrollbar">
       <thead>
         <tr>
-          <th>DATE</th>
-          <th>TOURNAMENT</th>
-          <th>COURSE</th>
+          <th className='font-bold'>DATE</th>
+          <th className='font-bold'>TOURNAMENT</th>
+          <th className='font-bold'>COURSE</th>
           <th>TOUR</th>
           <th>SCORE</th>
           <th>FINISH</th>
@@ -20,13 +20,13 @@ const Results = () => {
       </thead>
       <tbody>
       {tournamentResults.map((result => (
-        <tr>
-          <td>{result.date}</td>
-          <td>{result.tournament}</td>
-          <td>{result.course}</td>
-          <td>{result.tour}</td>
-          <td>{result.score}</td>
-          <td>{result.finish}</td>
+        <tr className={`${styles.resultsBox} group hover:bg-darkGreen h-[60px]`}>
+          <td className='group-hover:text-white'>{result.date}</td>
+          <td className='group-hover:text-white'>{result.tournament}</td>
+          <td className='group-hover:text-white'>{result.course}</td>
+          <td className='group-hover:text-white'>{result.tour}</td>
+          <td className='group-hover:text-white'>{result.score}</td>
+          <td className='group-hover:text-white'>{result.finish}</td>
         </tr>
       )))}
       </tbody>

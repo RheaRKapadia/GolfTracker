@@ -107,5 +107,16 @@ export const navLinks = [
       score: '65',
       finish: '1/120'
     },
-    
+
+  ];
+
+  export const statistics  = [
+    {
+      scoringAvg: 67.4,
+      fairwaysHit: '68%',
+      scrambling: '84%',
+      putsPerRound: 27,
+      putsPerGIR: 1.2,
+      GIR: '71%'
+    }
   ]

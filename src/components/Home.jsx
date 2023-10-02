@@ -1,8 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {navLinks} from '../constants';
+
 import {styles} from '../styles';
 import SectionWrapper from './hoc/SectionWrapper';
+
+import {motion} from 'framer-motion';
+import { slideIn } from '../utils/motion';
 
 // grid gap-[100px] grid-cols-3 grid-rows-3 mt-20
 // w-full relative  mx-auto flex flex-start  flex-wrap mt-20 gap-20
@@ -25,7 +29,7 @@ const Home = () => {
         <div className={`${styles.homeGreenBox} -mr-[100px] basis-5/6`}></div>
       </div>
       <div className=' text-right  -mt-[130px] pr-10'>
-        <h1 className={`${styles.headingText}`}>AKSHAY</h1>
+        <motion.h1  variants={slideIn('right', 'tween', 0.5, 1)} className={`${styles.headingText}`}>AKSHAY</motion.h1>
       </div>
       
     </section>

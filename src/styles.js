@@ -6,9 +6,13 @@ const styles = {
 
     headingText: "text-[#215742] font-outline font-shadow text-[150px] md:text-[120px] sm:text-[80px] xs:text-[70px] notoSans italic  font-black leading-10 ",
 
-    headingTextPages: " -mt-[8rem] text-center text-darkGreen font-outline font-shadow text-[100px] md:text-[80px] sm:text-[70px] xs:text-[60px] luckiestGuy tracking-widest font-black leading-10 ",
+    headingTextPages: " -mt-[8rem] text-center text-darkGreen font-outline font-shadow text-[100px] md:text-[80px] sm:text-[70px] xs:text-[60px]  tracking-widest font-black leading-10 ",
 
-    scheduleBox: "rounded-lg bg-[696B6A] scheduleBox rounded-lg "
+    scheduleBox: "rounded-lg bg-[696B6A] contentBeigeBox greenBorderLeft rounded-lg",
+
+    resultsBox: 'contentBeigeBox rounded-lg ',
+
+    statisticsBox: 'contentBeigeBox rounded-lg  py-4'
 
 
     //  text-[30px]
