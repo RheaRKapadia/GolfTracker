@@ -7,7 +7,7 @@ const Statistics = () => {
   return (
     <section>
       <div className={`${styles.headingTextPages} `}>STATISTICS</div>
-      <div className='mt-[11rem] '>
+      <div className='mt-[11rem] dark:text-[#8f9ab5] '>
         {statistics.map((statistic => (
           <div className='grid grid-cols-4 grid-rows-2 gap-10 w-full'>
             <div className={`${styles.statisticsBox } text-center  `}>
@@ -25,16 +25,16 @@ const Statistics = () => {
             <div className={`${styles.statisticsBox } text-center  row-span-2 flex flex-wrap `}>
               <p className='text-[54px] w-full z-10'>{statistic.putsPerRound}</p>
               <p className='text-[20px] font-light w-full -mt-[4.5rem] z-10'>Puts per Round</p>
-              <div className='bg-darkGreen w-full -mb-4  z-0 rounded-lg -mt-[6rem]'>
-                <img  className='-mt-3.5 ml-3' src='src/assets/grass.svg' alt='grass'></img>
+              <div className='bg-green-100 dark:bg-green-200 w-full -mb-4  z-0 rounded-lg -mt-[6rem]'>
+                <img  className='-mt-3.5 ml-3 dark:brightness-[75%]' src='src/assets/grass.svg' alt='grass'></img>
               </div>
             </div>
             <div className={`${styles.statisticsBox }  col-span-2 row-start-2 flex  flex-wrap justify-around `}>
               <p className='text-[54px] z-10 '>{statistic.GIR}</p>
               <p className='text-[20px] font-light z-10'>GIR <br></br>Greens In Regulation</p>
-              <div className='bg-darkGreen w-full -mb-4  z-0 rounded-lg '>
-                <img  className='-mt-3.5 ml-2' src='src/assets/grass.svg' alt='grass'></img>
-                <img  className='-mt-3.5 ml-[15rem]' src='src/assets/grass.svg' alt='grass'></img>
+              <div className='bg-green-100 dark:bg-green-200 w-full -mb-4  z-0 rounded-lg '>
+                <img  className='-mt-3.5 ml-2  dark:brightness-[75%]' src='src/assets/grass.svg' alt='grass' ></img>
+                <img  className='-mt-3.5 ml-[15rem] dark:brightness-[75%]' src='src/assets/grass.svg' alt='grass'></img>
               </div>
             </div>
             <div className={`${styles.statisticsBox } text-center   col-start-3 row-start-2`}>

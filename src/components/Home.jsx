@@ -29,7 +29,7 @@ const Home = () => {
         <div className={`${styles.homeGreenBox} -mr-[100px] basis-5/6`}></div>
       </div>
       <div className=' text-right  -mt-[130px] pr-10'>
-        <motion.h1  variants={slideIn('right', 'tween', 0.5, 1)} className={`${styles.headingText}`}>AKSHAY</motion.h1>
+        <motion.h1  variants={slideIn('right', 'tween', 0, 0.8)} className={`${styles.headingText}`}>AKSHAY</motion.h1>
       </div>
       
     </section>

@@ -4,12 +4,12 @@ const Loader = () => {
   const { progress } = useProgress();
 
   return (
-    <Html>
+    <Html >
       <span className="canvas-load"></span>
       <p
         STYLE={{
           FontSize: 14, 
-          color: '#f1f1f1',
+          color: 'nightBlue',
           fontWeight: 800,
           marginTop: 40
         }}

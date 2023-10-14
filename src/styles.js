@@ -1,18 +1,18 @@
 
 const styles = {
-    navBarText: "text-darkGreen px-20 text-[15px]",
+    navBarText: "text-green-100 px-20 text-[15px]",
 
-    homeGreenBox: "bg-darkGreen h-[50px] greenBoxHomeShadow rounded-lg border-black border-2 ",
+    homeGreenBox: "bg-green-100 dark:bg-green-200 h-[50px] outerBoxShadow rounded-lg border-black border-2 ",
 
-    headingText: "text-[#215742] font-outline font-shadow text-[150px] md:text-[120px] sm:text-[80px] xs:text-[70px] notoSans italic  font-black leading-10 ",
+    headingText: "text-[#215742] dark:text-carolinaBlue_200 font-outline font-shadow text-[150px] md:text-[120px] sm:text-[80px] xs:text-[70px] fredoka italic  font-black leading-10 ",
 
-    headingTextPages: " -mt-[8rem] text-center text-darkGreen font-outline font-shadow text-[100px] md:text-[80px] sm:text-[70px] xs:text-[60px]  tracking-widest font-black leading-10 ",
+    headingTextPages: " -mt-[8rem] text-center text-green-100 dark:text-green-200 font-outline font-shadow text-[100px] md:text-[80px] sm:text-[70px] xs:text-[60px]  luckiestGuy tracking-widest font-black leading-10 ",
 
-    scheduleBox: "rounded-lg bg-[696B6A] contentBeigeBox greenBorderLeft rounded-lg",
+    scheduleBox: " bg-[696B6A] contentBeigeBox dark:bg-blue-200 greenBorderLeft rounded-lg ",
 
-    resultsBox: 'contentBeigeBox rounded-lg ',
+    resultsBox: ' rounded-lg  contentBeigeBox dark:bg-blue-200',
 
-    statisticsBox: 'contentBeigeBox rounded-lg  py-4'
+    statisticsBox: 'contentBeigeBox dark:bg-blue-200 rounded-lg innerBoxShadow py-4'
 
 
     //  text-[30px]

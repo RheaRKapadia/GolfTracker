@@ -7,14 +7,14 @@ const Schedule = () => {
   return (
     <section>
       <div className={`${styles.headingTextPages} `}>SCHEDULE</div>
-      <div className='flex-col flex mt-[4rem] max-h-[33rem] overflow-scroll no-scrollbar last:pb-[10px]'>
+      <div className='flex-col flex mt-[4rem] max-h-[33rem] mr-10 overflow-scroll no-scrollbar last:pb-[10px] dark:text-[#8f9ab5]'>
         {upcomingTournaments.map((tournament => (
 
           <div className='flex justify-center h-[11rem] mt-[4%]'>
 
             <div className='basis-1/6 font-bold text-[18px] text-center pt-[3.5rem]'>{tournament.date}</div>
 
-            <div className={`{${styles.scheduleBox}} basis-5/6 flex-col flex gap-2 pl-10 pt-[2%]`}>
+            <div className={`{${styles.scheduleBox} basis-5/6 flex-col flex gap-2 pl-10 pt-[2%] innerBoxShadow`}>
 
                 <p className='text-[25px] font-medium leading-8'>{tournament.name}</p>
                 <p className='text-[18px] font-light'>{tournament.course}</p>
